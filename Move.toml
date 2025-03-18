@@ -1,0 +1,15 @@
+[package]
+name = "Lease-Agreement"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x7990d4b2bcd3a7817f5f8c0f47fee09eec24b55bdac276d897efbef831bd0846"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
